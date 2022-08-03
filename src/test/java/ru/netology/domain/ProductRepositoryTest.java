@@ -42,7 +42,7 @@ public class ProductRepositoryTest {
 
 
     @Test
-    public void ShouldFindAll(){
+    public void ShouldFindAll() {
         repo.save(product1);
         repo.save(product2);
         repo.save(product3);
@@ -81,9 +81,6 @@ public class ProductRepositoryTest {
         Assertions.assertArrayEquals(expected, actual);
 
     }
-
-
-
 
 
 }
